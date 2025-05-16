@@ -12,14 +12,30 @@ header {
     text-align: center;
 }
 
-body {
+main {
     background-color: #f5f5dc;
 }
 .centered-content {
     margin: 0;
-    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+div {
+    /*...*/
+}
+.section-separator {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin: 24px 0;
+}
+
+footer {
+    background-color: #33312e;
+    text-align:center;
+    color: #ffffff;
+    padding: 10px 0;
 }
